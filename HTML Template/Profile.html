@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profile</title>
     <link rel="icon" type="image/x-icon" href="Images/Icons/favicon.ico"  />
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/profile.css">
 </head>
 <body>
     <nav>
@@ -16,59 +16,84 @@
         <a href="MyTeam.html">MyTeam</a>
         <a href="Communication.html">Communication</a>
     </nav>
-    <section class="intro-section">
-        <h1 class="intro-title">Profile</h1>
-        <p class="intro-text">
-        <p>Check out the <a href="MeetTheTeam.html">Meet your Coach</a> page and use it as inspiration to build your own profile. We want to know about you and your employer and how you prefer to work so we can help you as best as we possibly can. </p>
-    </section>
-    
-    <section id="about-me">
-        <h2>About Me</h2>
-        <p>Hello! My name is [Your Name]. I am [a brief description about yourself, e.g., "a software developer with a passion for creating intuitive user experiences"]. I work for... </p>
-    </section>
-    
-    <section id="communication">
-        <h2>Ways I Prefer to Communicate</h2>
-        <p>Expain ways you prefer to communicate and why it's effective. For example:</p>
-        <ul>
-            <li>Email: [Your Email Address]</li>
-            <li>Instant Messaging: [Preferred platform, e.g., Slack, Teams]</li>
-            <li>Video Calls: [Preferred platform, e.g., Zoom, Google Meet]</li>
-            <li>In-person: [If applicable, mention your preference for face-to-face communication]</li>
-        </ul>
-    </section>
-    
-    <section id="working-with-me">
-        <h2>How to Work with Me</h2>
-        <p>Here are some tips for working with me effectively:</p>
-        <ul>
-            <li>Be clear and concise in your communication.</li>
-            <li>Provide context when asking questions or assigning tasks.</li>
-            <li>Respect deadlines and communicate any changes promptly.</li>
-            <li>I appreciate constructive feedback and open collaboration.</li>
-        </ul>
-    </section>
-    
-    <section id="past-experience">
-        <h2>Past Experience and CPD</h2>
-        <p>Explain any past experience you've had and how you keep up to date with new technologies:</p>
-        <ul>
-            <li><strong>Previous Roles:</strong> [List your previous roles, e.g., "Junior Developer at XYZ Corp"], or maybe explain that you came to the apprenticeship straight from school/college/A Levels</li>
-            <li><strong>Projects:</strong> [Highlight other projects you've worked on, e.g., "Developed a customer portal for ABC Ltd" or "Made a recipe generator to help me with meal ideas"]</li>
-            <li><strong>Training:</strong> [Mention any relevant training, e.g., "Completed advanced JavaScript course" or "Completed Codewars weekly challenges"]</li>
-        </ul>
-    </section>
-    
-    <section id="hobbies">
-        <h2>Hobbies</h2>
-        <p>In my free time, I enjoy:</p>
-        <ul>
-            <li>[Hobby 1, e.g., Reading]</li>
-            <li>[Hobby 2, e.g., Hiking]</li>
-            <li>[Hobby 3, e.g., Playing video games]</li>
-            <li>[Hobby 4, e.g., Cooking]</li>
-        </ul>
-    </section>
+    <div class="section-blocks">
+
+        <section id="profile-picture">
+            <img src="./images/avatar-hello.png" alt="profile-picture">
+        </section>
+        
+        <section id="about-me">
+            <h2>About Me</h2>
+            <p>Hello! My name is Jessie. I'm an Associate Software Engineer, with a passion for learning and experimenting with new ways to write code. I work for Sainsbury's in their Commercial Data department, where I work on different microservices to help improve data quality using (mainly) Java and Springboot. </p>
+        </section>
+        
+        <section id="communication">
+            <h2>Ways I Prefer to Communicate</h2>
+            <p>My preference is for a message to be sent on slack, but if it's urgent then a video call on Google Meets or come and talk to me in-person if we're both in the same place.</p>
+            <ul>
+                <li>Email: jessielhall1@gmail.com</li>
+                <li>Instant Messaging: Slack</li>
+                <li>Video Calls: Google Meet </li>
+                <li>In-person: Yes!</li>
+            </ul>
+        </section>
+        
+        <section id="working-with-me">
+            <h2>How to Work with Me</h2>
+            <p>I'm happy to work indepedently or collaboratively, depending on the project. Here are some tips if we're working together:</p>
+            <ul>
+                <li>Be clear in your communication - remember context is key.</li>
+                <li>Respect deadlines and communicate any changes promptly.</li>
+                <li>I appreciate constructive feedback and open collaboration.</li>
+            </ul>
+        </section>
+        
+        <section id="past-experience">
+            <h2>Past Experience and CPD</h2>
+            <h3>Previous Roles:</h3> 
+            <ul>             
+                <li class="title">Senior CRM Executive</li>
+                <li class="description">This role helped me prepare for my current role as it taught me a lot about team work, project management and how to communicate with people outside of my team.
+                    <br> I also used HTML and CSS in this role quite often, which was what encouraged me to move into a tech role.
+                </li>
+                <li class="description"><strong>Project:</strong> Designed and set up new HTML-designed welcome email for customers</li>
+                <li class="description"><strong>Skills:</strong> HMTL, CSS</li>
+            </ul>
+            <h3>Previous Education:</h3> 
+            <ul>
+                <li class="title">Software Engineering Bootcamp - Code First Girls</li>
+                <li class="description"><strong>Project:</strong> Worked within a team to build a program that gave recipe recommendations using a web API</li>
+                <li class="description"><strong>Skills:</strong> Python, SQL</li>
+            </ul>
+            <h3>Currently:</h3> 
+            <ul>
+                <li class="title">I'm learning through working on tickets at work, watching (lots of) YouTube tutorials, personal projects, and doing an apprenticeship.
+                    <br>
+                    My aim is to become a lot more confident at taking on work independently in my current role.
+                </li>
+            </ul>
+        </section>
+        
+        <section id="hobbies">
+            <h2>Hobbies</h2>
+            <p>In my free time, I enjoy:</p>
+            <ul>
+                <li>Cooking</li>
+                <li>Baking</li>
+                <li>Hiking</li>
+                <li>Planning holidays</li>
+            </ul>
+        </section>
+
+        <section id="cake-picture">
+            <img src="./images/avatar-cake.png" alt="cake-picture">
+        </section>
+
+        <section id="socials">
+            <a href="https://www.linkedin.com/in/jessie-hall-624626189/"><img src="./images/Icons/linkedin-brands.svg" alt="linkedin" id="linkedin"></a>
+            <a href="https://github.com/jessiehall101"><img src="./Images/Icons/github-brands.svg" alt="github" id="github"></a>
+        </section>
+    </div>
     <footer>
         <p>Just IT</p>
     </footer>

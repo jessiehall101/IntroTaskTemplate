@@ -5,7 +5,7 @@ body {
     background-color: rgb(33, 110, 112);
     color: black;
     line-height: 1.6;
-    background-image: url('./images/background.jpg');
+    background-image: url('../images/pink-sky-background.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: repeat; 
@@ -89,7 +89,7 @@ button:hover {
 }
 
 nav {
-    background-color: rgb(46, 94, 170);
+    background-color: rgb(81, 187, 190);
     padding: 10px 20px;
     display: flex;
     justify-content: center;
@@ -99,6 +99,7 @@ nav {
 nav a {
     color: white;
     font-weight: bold;
+    padding: 0px 30px;
 }
 
 nav a:hover {
